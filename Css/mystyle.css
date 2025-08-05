@@ -1,0 +1,59 @@
+h3{
+    font-size: 80px;
+    color:white;
+    background-color: red;
+}
+p{
+    font-size: 30px;
+    color:blueviolet;
+    background-color: cornsilk;
+}
+
+.text_transform_uppercase{
+    text-transform: uppercase;
+}
+.text_transform_lowercase{
+    text-transform: lowercase;
+}
+.text_transform_capitalize{
+    text-transform: capitalize;
+}
+
+.text_center{
+    text-align: center;
+}
+
+.text_right{
+    text-align: right;
+}
+.text_decor_underline{
+    text-decoration: underline;
+}
+
+.text_decor_overline{
+    text-decoration: overline;
+}
+
+.text_decor_line-through{
+    text-decoration: line-through;
+}
+
+.text_decor{
+    text-decoration: underline overline line-through;
+}
+
+.text_indent{
+    text-indent: 160px;
+}
+
+.letter_space{
+    letter-spacing: 10px;
+}
+
+.word_space{
+    word-spacing: 10px;
+}
+
+.line_height{
+    line-height:25px ;
+}
