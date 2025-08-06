@@ -3,7 +3,7 @@ h3{
     color:white;
     background-color: red;
 }
-p{
+.abcd{
     font-size: 30px;
     color:blueviolet;
     background-color: cornsilk;
@@ -55,5 +55,78 @@ p{
 }
 
 .line_height{
-    line-height:25px ;
+    font-size: 20px;
+    line-height:30px ;
+}
+
+.text_shadow{
+    font-size: 50px;
+    text-align: center;
+    color: blueviolet;
+    text-shadow: 4px 5px 8px orange;
+}
+
+.b_shadow{
+    box-shadow: 16px 16px 8px rebeccapurple;
+    width: 250px;
+}
+
+.d_shadow{
+    filter: drop-shadow(16px 16px 15px red);
+    width: 250px;
+}
+
+#t_color{
+    color:brown;
+}
+
+#t_size{
+    color: green;
+}
+
+.t_size{
+    color: green;
+}
+.t_bg{
+    color: green;
+}
+.t_center{
+    color: green;
+}
+
+.f_family1{
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.f_family2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.f_family3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}    
+
+.f_family4{
+    font-family:fantasy;
+}
+
+.b_prop1{
+    border: 6px double red;
+}
+
+.b_prop2{
+    border: 6px dotted blue;
+}
+.b_prop3{
+    border: 6px solid blue;
+}
+.b_prop4{
+    border: 6px inset blue;
+}
+.b_prop5{
+    border: 6px outset blue;
+}
+.b_prop6{
+    border: 6px dashed blue;
 }
