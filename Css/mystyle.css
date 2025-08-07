@@ -130,3 +130,167 @@ h3{
 .b_prop6{
     border: 6px dashed blue;
 }
+
+.b_prop7{
+    width: 250px;
+    border: 6px double blue;
+
+    /*border-top-left-radius: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 20px;*/
+    border-radius: 50px 20px 50px 20px;
+    border-color: brown yellow violet blue;
+}
+
+.b_prop8{
+    width: 250px;
+    border: 6px double blue;
+
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.b_prop9{
+    width: 250px;
+    border: 6px double blue;
+
+    /*border-top-left-radius: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 20px;*/
+    border-radius: 50px 20px 50px 20px;
+    border-color: brown yellow violet blue;
+}
+
+.b_prop10{
+    width: 250px;
+    border: 6px double blue;
+
+    /*border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    border-bottom-left-radius: 60px;*/
+    border-radius:  60px 60px 60px 60px;
+    border-color: red yellow;
+}
+
+
+.b_prop11{
+    width: 250px;
+    border: 6px double blue;
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.box_model_1{
+    border: 4px solid red;
+    padding: 30px;
+    margin: 60px;
+}
+
+.box_model_2{
+    border: 4px solid red;
+    /*padding: 60px;*/
+    padding: 50px 30px 50px 30px;
+    /*margin: 50px;*/
+    margin: 20px 0px 20px 0px;
+}
+
+.box_model_3{
+    width: 250px;
+    border: 6px double red;
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 60px;
+}
+
+.box_model_4{
+    width: 250px;
+    border: 6px double red;
+    border-radius: 30px;
+    padding: 20px;
+    margin:  100px 500px 100px 500px;
+}
+
+
+.box_model_5{
+    width: 250px;
+    border: 6px double red;
+    border-radius: 30px;
+    padding: 30px 30px 30px 30px;
+    margin-left: 500px;
+}
+
+.linear{
+    height: 400px;
+    background: linear-gradient(rgb(195, 127, 2),white,green);
+}
+
+.heading1{
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+
+.linear1{
+    height: 400px;
+    background: linear-gradient(red,yellow);
+}
+
+.heading2{
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+
+.linear2{
+    height: 400px;
+    background: linear-gradient(to right ,red,yellow);
+}
+
+.heading3{
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+
+.linear3{
+    height: 400px;
+    background: linear-gradient(to bottom,red,yellow);
+}
+
+.heading4{
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+
+.linear4{
+    height: 400px;
+    background: linear-gradient(to left ,red,yellow);
+}
+
+.heading5{
+    text-align: center;
+    padding-top: 20px;
+    color: black;
+}
+
+.radial{
+    height: 800px;
+    background: radial-gradient(circle,blue,orange,red);
+    /*border-radius:50%;*/
+}
+
+.conic{
+    height: 500px;
+    background:conic-gradient(from 90deg,blue,red,green,black) ;
+    /*border-radius:50%;*/
+}
+
